@@ -1,0 +1,67 @@
+header{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.instructions{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.footer{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+a {
+    color: red;
+  }
+/* lineup class and keyframes */
+.lineUp {
+    animation: 2s anim-lineUp ease-out;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+.hover{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttonContainer {
+  margin-top: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.languageButton {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  margin: 0;
+  margin-right: 10px;
+}
+.noMargin {
+  margin-right: 0;
+}
